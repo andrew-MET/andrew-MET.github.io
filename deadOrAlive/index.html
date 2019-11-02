@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dead or Alive</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <!--[if lt IE 7]>s
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div>
+      <button class="guess-button" id="reset">Reset</button>
+    </div>
+
+    <div class="container">
+
+      <div class="play-area">
+        <div id="name-div">
+          <span id="display-name"></span> <!-- ... There are <span id="num-names"></span> names remaining! -->
+        </div>
+
+        <div class="central">
+          <div id="left"></div>
+          <button class="guess-button" id="guess-dead">Dead</button>
+          <div class="spacer"></div>
+          <button class="guess-button" id="guess-alive">Alive</button>
+          <div id="right"></div>
+        </div>
+
+        <div class="central">
+          <button id="name">New Name</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div>
+      <span id="dead"></span>
+    </div> -->
+    
+    <script type="text/javascript" src="deadOrAlive.js"></script>
+    <script src="" async defer></script>
+  </body>
+</html>

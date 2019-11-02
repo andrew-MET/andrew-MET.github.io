@@ -1,0 +1,89 @@
+
+body {
+  background-color: #333;
+  color: #999;
+  font-family: 'gypsy_curseregular';
+  font-size: 4em;
+  height: 100%;
+}
+
+button {
+  background-color: #EB6123;
+  color: #AAA;
+  border: 3px solid #DA5012;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border-radius: 35%;
+  width: 80px;
+  height: 60px;
+}
+
+button:active {
+  border: 5px solid #CA4002;
+  font-size: 1.4rem;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:focus {
+  outline: 0;
+}
+
+.container {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#left {
+  width: 100px;
+  height: 60px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: left;
+}
+
+#left .img{
+  height: 100%;
+}
+
+#right {
+  width: 100px;
+  height: 60px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: right;
+}
+
+#right .img{
+  height: 100%;
+}
+
+#name-div {
+  /* height: 300px; */
+  display: flex; 
+  justify-content: center;
+  /* align-items: center;
+  flex-direction: column-reverse; */
+}
+
+#name {
+  margin-top: 8px;
+}
+
+.central {
+  display: flex;
+  justify-content: center;
+}
+
+.spacer {
+  width: 150px;
+  background-color: transparent;
+}
+
+/* .guess-button {
+  width: 70px;
+} */

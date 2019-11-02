@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'gypsy_curseregular';
+  src: url('fonts/gypsy_curse-webfont.woff2') format('woff2'),
+       url('fonts/gypsy_curse-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
